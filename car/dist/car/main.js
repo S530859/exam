@@ -488,7 +488,7 @@ var HttpService = /** @class */ (function () {
         return this.form;
     };
     HttpService.prototype.postService = function () {
-        return this.http.post('http://localhost:3000/', this.form);
+        return this.http.post('/', this.form);
     };
     HttpService = __decorate([
         Object(_angular_core__WEBPACK_IMPORTED_MODULE_0__["Injectable"])({
