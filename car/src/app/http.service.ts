@@ -17,6 +17,6 @@ export class HttpService {
     return this.form
   }
   postService() {
-    return this.http.post('http://localhost:3000/', this.form)
+    return this.http.post('/', this.form)
   }
 }
